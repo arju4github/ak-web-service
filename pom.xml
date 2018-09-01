@@ -28,6 +28,7 @@
 		<url>https://github.com/arju4github/ak-web-service</url>
 		<connection>scm:git:git://github.com/arju4github/ak-web-service.git</connection>
 		<developerConnection>scm:git:git@github.com:arju4github/ak-web-service.git</developerConnection>
+		<tag>v@{project.version}</tag>
 	</scm>
 
 	<dependencies>
@@ -54,7 +55,11 @@
         		<artifactId>maven-release-plugin</artifactId>
         		<version>2.5.3</version>
         		<configuration>
+        			<goals>pre-integration-test</goals>
+        			<preparationGoals>package</preparationGoals>
+        			<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
           			<tagNameFormat>v@{project.version}</tagNameFormat>
+          			<remoteTagging>false</remoteTagging>
         		</configuration>
      		 </plugin>
 		</plugins>
