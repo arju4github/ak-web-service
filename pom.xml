@@ -30,6 +30,15 @@
 		<developerConnection>scm:git:git@github.com:arju4github/ak-web-service.git</developerConnection>
 		<tag>v@{project.version}</tag>
 	</scm>
+	
+	<developers>
+		<developer>
+			<email>arjukurup@gmail.com</email>
+			<name>Arju Kurup</name>
+			<url>https://github.com/arju4github</url>
+			<id>arju4github</id>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
