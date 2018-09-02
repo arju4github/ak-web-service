@@ -4,7 +4,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>ak-web-service</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>ak-web-service</name>
@@ -27,7 +27,7 @@
 		<url>https://github.com/arju4github/ak-web-service</url>
 		<connection>scm:git:git://github.com/arju4github/ak-web-service.git</connection>
 		<developerConnection>scm:git:git@github.com:arju4github/ak-web-service.git</developerConnection>
-		<tag>0.0.2</tag>
+		<tag>0.0.1</tag>
 	</scm>
 	
 	<developers>
